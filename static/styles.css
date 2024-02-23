@@ -5,15 +5,22 @@ body {
     color: #ddd;
     margin: 0;
     padding: 0;
-    background-image: url('https://source.unsplash.com/random/1600x900/?technology,computer,dark');
+    /* background-image: url('https://source.unsplash.com/random/1600x900/?cybersecurity,computer,dark'); */
     background-size: cover;
     background-position: center;
+    background-blend-mode: darken;
+    background-color: black;
 }
 
-h1, h2, h3 {
+h1, h2, h3 ,h4,h5,h6{
+
+
+
     font-weight: normal;
     margin-bottom: 10px;
+    /* color: #333; */
 }
+
 
 p {
     margin-bottom: 20px;
