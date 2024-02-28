@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../static/styles.css">
+    <link rel="stylesheet" href="../static/verification_styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
@@ -19,73 +19,91 @@
     </header>
 
     <main class="container">
-
-
         <div class="card">
             <h3 class="card-header" data-bs-toggle="collapse" href="#collapseExample1" role="button"
                 aria-expanded="false" aria-controls="collapseExample">URL INSPECTION AND ANALYSIS
             </h3>
             <div class="collapse" id="collapseExample1">
-                <h4 class="card-header">URL Components</h4>
-                <li>Break down URLs into components (scheme, domain, subdomain, path, etc.).</li>
-                <li> Look for inconsistencies or suspicious elements (e.g., misspelled brand names, extra characters).
-                </li>
+                <br>
+                <h4 class="card-header">URL COMPONENTS</h4>
+                <p></p>
+                <img class="urlcomp" src="..\static\fbXVa-uUJ8a0UbBoFZ15bPBMzFSNgIHCnKoV9dBpfLh0f38XFkbCwPTZ0ndsFHvs3jXhaW3evp4MSZqkVXgx1IA9e_LKOeCNd0M7BqKb4se_hgJhkqoI1GnAByOtU1Y-o-THkyCIp0oLsQDTtvOapO8.jpeg"
+                    alt="Parts of URL" >
+                <p></p>
+                <ol>
+                    <li>Break down URLs into components (scheme, domain, subdomain, path, etc.).
+                    </li>
+                    <li> Look for inconsistencies or suspicious elements (e.g., misspelled brand names, extra
+                        characters).
+                    </li>
+                </ol>
 
-                <h4 class="card-header">Domain Name Variation
+                <br>
+                <h4 class="card-header">DOMAIN NAME VARIATION
                 </h4>
-                <li>
-                    Identify variations of legitimate domain names (e.g., missing letters, swapped characters).
-                <li>
-                    Use tools like CheckShortURL to expand shortened URLs and verify their legitimacy1
-                    </p>
+                <br>
+                
+                <img id="dname" src="..\static\Example-of-homograph-domain-names.png" alt="Fake domain">
+                <p></p>
+                <ol>
+                    <li>
+                        Identify variations of legitimate domain names (e.g., missing letters, swapped characters).
+                    <li>
+                        Use tools like<a style="text-decoration:none"
+                            href="https://checkshorturl.com/">CheckShortURL</a> to expand shortened URLs and verify
+                        their legitimacy.
+                </ol>
+                </p>
 
-                    <h4 class="card-header">Top-Level Domains (TLDs)
-                    </h4>
-                <li>
-                    Be cautious of unusual or uncommon TLDs (e.g., .xyz, .info, .top).</li>
-                <li> Verify if the TLD matches the expected country or organization (e.g., .co.uk for UK-based sites).
-                </li>
-
+                <br>
+                <h4 class="card-header">TOP-LEVEL DOMAINS (TLDS)
+                </h4>
+                <br>
+                <ol>
+                    <li>
+                        Be cautious of unusual or uncommon TLDs (e.g., .xyz, .info, .top).
+                        
+                    </li>
+                    <li> Verify if the TLD matches the expected country or organization (e.g., .co.uk for UK-based
+                        sites).
+                        <p></p>
+                        <ul>
+                            <li>For example:</li>
+                            <li>’.com’ is intended for commercial businesses.</li>
+                            <li> ’.gov’ is for U.S. government entities.</li>
+                            <li> ’.uk’ is for domains from the United Kingdom.</li>
+                            <li><a href="https://data.iana.org/TLD/tlds-alpha-by-domain.txt" style="text-decoration: none;">Link </a>for others TLDs</li>
+                           
+                        </ul>
+                    </li>
+                </ol>
             </div>
         </div>
-        <div class="card">
-            <h3 class="card-header" data-bs-toggle="collapse" href="#collapseExample2" role="button"
-                aria-expanded="false" aria-controls="collapseExample">
-                CONTENT VERIFICATION
-            </h3>
-            <div class="collapse" id="collapseExample2">
-
-
-                <h4 class="card-header">Content Quality</h4>
-                <li>
-                    Evaluate the quality of website content (grammar, spelling, coherence).</li>
-                <li> Fake websites often have poorly written or copied content.</li>
-                <h4 class="card-header">Images and Logos
-                </h4>
-                <li>
-                    Identify variations of legitimate domain names (e.g., missing letters, swapped characters).
-                <li>
-                    Use tools like CheckShortURL to expand shortened URLs and verify their legitimacy1
-                    </p>
-
-            </div>
-        </div>
+      
 
         <div class="card">
             <h3 class="card-header" data-bs-toggle="collapse" href="#collapseExample3" role="button"
                 aria-expanded="false" aria-controls="collapseExample">
-                SSL CERTIFICATE CHECK
+                SSL(SECURE SOCKETS LAYER) CERTIFICATE CHECK
             </h3>
             <div class="collapse" id="collapseExample3">
+                <br>
+                <img class="ssl" src="..\static\ClouDNS-SSL-1.png">
+                <ol>
+                
                 <li>Verify if the website uses HTTPS (secure connection).</li>
                 <li> Check the SSL certificate details (expiration date, issuer).</li>
-                <a href="https://www.sslshopper.com/ssl-checker.html">https://www.sslshopper.com/ssl-checker.html</a>
-                <br>
-                <a href="https://www.digicert.com/help/">https://www.digicert.com/help/</a>
-                <br>
-                <a href="https://www.geocerts.com/ssl-checker">https://www.geocerts.com/ssl-checker</a>
-
-
+                <li> Below are tools for cheking SSL.
+                    <ul>
+                        <br>
+                    <li> <a style="text-decoration:none"
+                        href="https://www.sslshopper.com/ssl-checker.html">sslshopper.com</a></li>
+                    <li> <a style="text-decoration:none" href="https://www.digicert.com/help/">digicert.com</a></li>
+                    <li> <a style="text-decoration:none"
+                        href="https://www.geocerts.com/ssl-checker">geocerts.com</a></li>
+                </ul>
+                </li>
+            </ol>
             </div>
         </div>
         <div class="card">
@@ -94,25 +112,53 @@
                 WHOIS LOOKUP
             </h3>
             <div class="collapse" id="collapseExample4">
-                <li>Use WHOIS lookup tools to find information about the domain owner. </li>
+                <br>
+                <ol>
+                <li>Use WHOIS lookup tools to find information about the domain owner. <br>
+                    <a style="text-decoration:none" href="https://www.whois.com/whois/">whois.com</a>
+                    <br>
+                    <a style="text-decoration:none" href="https://who.is/">who.is</a>
+                </li>
                 <li> Look for recent registrations or privacy protection services. </li>
-                <a href="https://www.whois.com/whois/">https://www.whois.com/whois/</a>
-                <br>
-                <a href="https://who.is/">https://who.is/</a>
-                <br>
+            </ol>
             </div>
         </div>
+        <div class="card">
+            <h3 class="card-header" data-bs-toggle="collapse" href="#collapseExample2" role="button"
+                aria-expanded="false" aria-controls="collapseExample">
+                CONTENT VERIFICATION
+            </h3>
+            <div class="collapse" id="collapseExample2">
+                <p></p>
+                <img class="fake" src="..\static\Untitled__Facebook_Cover___Facebook_Cover___650____300_px_.png">
 
+
+                <h4 class="card-header">CONTENT QUALITY</h4>
+                <br>
+                <li>
+                    Evaluate the quality of website content (grammar, spelling, coherence).</li>
+                <li> Fake websites often have poorly written or copied content.</li>
+                <br>
+                <h4 class="card-header">IMAGES AND LOGOS
+                </h4>
+                <br>
+                <li>
+                    Identify variations of legitimate domain names (e.g., missing letters, swapped characters).
+                <li>
+                    Use tools like <a style="text-decoration:none"
+                    href="https://checkshorturl.com/">CheckShortURL</a>to expand shortened URLs and verify their legitimacy
+            </div>
+        </div>
         <div class="card">
             <h3 class="card-header" data-bs-toggle="collapse" href="#collapseExample5" role="button"
                 aria-expanded="false" aria-controls="collapseExample">
                 CONTACT INFORMATION
             </h3>
             <div class="collapse" id="collapseExample5">
-                <li>Check if the website provides valid contact details (email, phone, address). </li>
-                <li> Verify the legitimacy of the provided information. </li>
-
                 <br>
+                <li>Check if the website provides valid contact details (email, phone, address). </li>
+                <li>Verify the legitimacy of the provided information. </li>
+                <li>Refer to our other SOPS to check information like phone numbers,emails,etc.</li>
             </div>
         </div>
 
@@ -122,10 +168,15 @@
                 USER REVIEWS AND RATINGS
             </h3>
             <div class="collapse" id="collapseExample6">
-                <li>Search for user reviews or ratings of the website. </li>
-                <li> Use platforms like Trustpilot or Sitejabber to check user experiences. </li>
+                <img class="fake" src="..\static\unnamed.jpg">
 
                 <br>
+                <li>Search for user reviews or ratings of the website. </li>
+                <li> Use platforms like<a style="text-decoration:none"
+                    href="https://www.trustpilot.com/">Trustpilot</a>or<a style="text-decoration:none"
+                    href="https://www.sitejabber.com/">Sitejabber</a>to check user experiences. </li>
+
+
             </div>
         </div>
 
@@ -135,10 +186,30 @@
                 BROWSER EXTENSIONS AND TOOLS
             </h3>
             <div class="collapse" id="collapseExample7">
-                <li>Install browser extensions that warn about suspicious websites. </li>
-                <li> Use online tools like Scamvoid to check a website’s reputation. </li>
-
                 <br>
+                <li>Install browser extensions that warn about suspicious websites.
+                    <ol>
+                        <br>
+                        <li>Netcraft : This extension offers community-based reporting to protect against phishing sites. It also warns users when they try to visit a website that has been compromised with a JavaScript skimmer.   
+                            <li>  uBlock Origin :
+                            This extension blocks third-party trackers and domains that are known to belong to malware sources.
+                            </li>
+                            <li> Malwarebytes Browser Guard :
+                            This extension blocks trackers and other threats, including technical support scams and virtual credit card skimmers.
+                           </li>
+                           <li>     Avira Browser Safety :
+                            This extension protects against infected ads, unwanted applications hidden in downloads, and malicious websites.
+                        </li>
+                        <li>    Trend Micro Check :
+                            This extension analyzes each website you visit for different types of suspicious or harmful content.
+                        </li>   
+                    <li> Disconnect : This extension shows you the names of specific web trackers for each site you visit and lets you block them. 
+                            </li>
+                    </ol> </li>
+                <li> Use online tools like <a style="text-decoration:none"
+                    href="https://www.scamvoid.net/">Scamvoid</a>to check a website’s reputation. </li>
+
+
             </div>
         </div>
 
@@ -148,11 +219,14 @@
                 REPORTING AND ACTION
             </h3>
             <div class="collapse" id="collapseExample8">
-                <li>Establish a process for reporting suspicious websites.</li>
-                <li>Define steps to block or blacklist identified fake websites.</li>
+                <br>
+                <li>AFter finding that the given website is fake you can report it on<a style="text-decoration:none"
+                    href="https://safebrowsing.google.com/safebrowsing/report_phish/?hl=en">Google Safe</a>website.</li>
+<!--                 <li>Define steps to block or blacklist identified fake websites.</li> -->
+                             
             </div>
         </div>
-        <div class="card">
+        <!-- <div class="card">
             <h3 class="card-header" data-bs-toggle="collapse" href="#collapseExample9" role="button"
                 aria-expanded="false" aria-controls="collapseExample">
                 COLLABORATE WITH SECURITY EXPERTS
@@ -161,7 +235,7 @@
                 <li>Work with cybersecurity professionals to stay updated on emerging threats.</li>
                 <li>Share findings and collaborate on threat intelligence.</li>
             </div>
-        </div>
+        </div> -->
     </main>
     <footer class="footer">
         <p>
