@@ -2,43 +2,44 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    color: #ddd;
+    
     margin: 0;
     padding: 0;
+
     /* background-image: url('https://source.unsplash.com/random/1600x900/?cybersecurity,computer,dark'); */
     background-size: cover;
     background-position: center;
     background-blend-mode: darken;
-    background-color: black;
+    /* background-color: black; */
 }
 
-h1, h2, h3 ,h4,h5,h6{
-
-
-
+h1{
     font-weight: normal;
     margin-bottom: 10px;
-    /* color: #333; */
+color: aliceblue;
 }
-
-
+h2{
+    color: white;
+}
 p {
     margin-bottom: 20px;
+    color: #fff;
+    font-size: larger;
+    text-align:center;
 }
-
 a {
     display: inline-block;
-    background-color: #ff0080;
+    background-color: #060405;
     color: #fff;
-    padding: 10px 20px;
+    padding: 3px 20px;
     text-decoration: none;
     transition: background-color 0.3s;
     margin-right: 10px;
-    border-radius: 5px;
+    border-radius: 5px;   
 }
 
 a:hover {
-    background-color: #ff0066;
+   color:gray;
 }
 
 ul {
@@ -52,6 +53,7 @@ li {
 }
 
 .container {
+border-radius: 5%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -60,8 +62,9 @@ li {
 }
 
 .header {
-    background-color: #ff0080;
-    color: #fff;
+    font-size: larger;
+    background-color:black;
+    /* color: #fff; */
     padding: 20px;
     text-align: center;
 }
@@ -74,14 +77,14 @@ li {
     margin-top: 50px;
 }
 
-.highlight {
+/* .highlight {
     color: #ff0000;
-}
+} */
 
 .card {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 1%;
     margin-bottom: 20px;
     transition: transform 0.3s;
 }
@@ -91,14 +94,14 @@ li {
 }
 
 .card-header {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.164);
     padding: 10px;
     border-radius: 5px;
     margin-bottom: 10px;
 }
 
 .card-body {
-    color: #ddd;
+    color: #dddddd00;
 }
 
 nav {
