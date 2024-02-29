@@ -1,0 +1,103 @@
+/* Resetting default browser styles */
+body, h1, h2, p, ul, ol, nav, li, img {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  /* li{
+    font-size: larger;
+  } */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+  }
+  a{
+    color: blue;
+  }
+  a:hover{
+    color: purple;
+  }
+  header {
+    background-color: rgb(31, 30, 30);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    background-color:  rgb(31, 30, 30); /* Blue accent */
+    text-align: center;
+    padding: 10px 0;
+  }
+  #introduction{
+    padding: 7vh;
+    align-items: center;
+   
+  }
+  #sops{
+    padding: 7vh;
+    align-items: center;
+  }
+  #examples{
+    padding: 7vh;
+    align-items: center;
+  }
+  #additional-resources{
+    padding: 7vh;
+    align-items: center;
+  }
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+  }
+  
+  h1 {
+    color: whitesmoke; /* Blue accent */
+    margin-bottom: 20px;
+    
+  }
+  
+  section {
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  p, ul, ol {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-size: large;
+  }
+  
+  ol {
+    list-style-type: decimal;
+  }
+  
+  .fake-call-example img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
