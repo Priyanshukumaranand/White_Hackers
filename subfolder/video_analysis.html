@@ -1,12 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/verification_styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
     <title>Document</title>
-    <link rel="stylesheet" href="../static/styles.css">
 </head>
+
 <body>
-    <h1>VIDEO CONTENT ANALYSIS FRAMEWORK</h1>
+    <header class="header">
+        <h1>VIDEO CONTENT ANALYSIS</h1>
+    </header>
+
+    <main class="container">
+        <div class="card">
+            <h3 class="card-header" data-bs-toggle="collapse" href="#collapseExample1" role="button"
+                aria-expanded="false" aria-controls="collapseExample">What is Deepfake? , Let’s know about it first…
+            </h3>
+            <div class="collapse" id="collapseExample1">
+                <p></p>
+                <p>Deepfake technology can be used to paste existing photos or videos onto other photos
+                    or videos to make it appear as if a person is saying or doing something they are not
+                    actually doing. Concerns have grown that the technology could be misused to create
+                    fake news, hoaxes or other misinformation.</p>
+
+            </div>
+        </div>
+        <div class="card">
+            <h3 class="card-header" data-bs-toggle="collapse" href="#collapseExample2" role="button"
+                aria-expanded="false" aria-controls="collapseExample">How to detect deepfake videos and photos:-
+            </h3>
+            <div class="collapse" id="collapseExample2">
+                <br>
+                <p>The most forward answer can be visual
+                    inspection:</p>
+                <img width="300px" style="max-width: 300px;" class="urlcomp"
+                    src="..\static\Screenshot 2024-03-01 030116.png" alt="Parts of URL">
+                <p>Deepfaked photo of me.</p>
+                <img width="300px" style="max-width: 300px;" class="urlcomp"
+                    src="..\static\Screenshot 2024-03-01 030129.png" alt="Parts of URL">
+                <p>Original picture</p>
+                <p>Let’s see how to identify those abnormalities…</p>
+                <img width="300px" style="max-width: 300px;" class="urlcomp"
+                    src="..\static\Screenshot 2024-03-01 030138.png" alt="Parts of URL">
+                <ol>
+                    <br>
+                    <li>A strange glossy effect over the face.</li>
+                    <li>Weird shape of the left ear.</li>
+                    <li>Weird shape of the left eye.</li>
+                    <li>There are some physical inconsistencies in
+                        that lowermost right part area of the face.
+                        (Skin texture mismatch.)</li>
+                </ol>
+                <ol>
+                    <p>Those points are same to identify those fake videos too along with:-</p>
+                    <li>Audio Glitches</li>
+                    <li>Unnatural lighting</li>
+
+                </ol>
+                <p>But there’s a level where human eyes can’t tell the difference between fiction and reality</p>
+                <img class="urlcomp" style="max-width: 300px;" src="..\static\Screenshot 2024-03-01 030144.png"
+                    alt="Parts of URL">
+                <p>You can click on<a style="text-decoration: none;"
+                        href="https://www.youtube.com/watch?v=WzK1MBEpkJ0">this</a>to see how deep
+                    fake can be so near<br>
+                    Channel name : LipSynthesis</p>
+
+                <br>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3 class="card-header" data-bs-toggle="collapse" href="#collapseExample3" role="button"
+                aria-expanded="false" aria-controls="collapseExample">How to use the tools specific to detect Fake
+                videos?
+            </h3>
+            <div class="collapse" id="collapseExample3">
+                <p></p>
+                <p>Deepware is a tool used to detect fake videos available on any public online platform
+                    such as YouTube etc.</p>
+                <p>How to use the Deepware:-</p>
+                <ul>
+                    <li>Just simply visit the site :-<a style="text-decoration: none;"
+                            href="https://scanner.deepware.ai/">
+                            https://scanner.deepware.ai/</a></li>
+                    <li>Simply paste the URL of the video, or upload the video at the search bar.</li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <p>
+            Remember that SOPs are regularly reviewed and updated based on new threats and tools.We encourage a culture
+            of vigilance and skepticism among users to prevent falling for fake websites. 🌟
+        </p>
+    </footer>
 </body>
+
 </html>
